@@ -77,7 +77,7 @@ docker build -t my-next-read .
 docker run -p 8501:8501 my-next-read
 python app.py
 ```
- Deployment
-```bash
+## Deployment
+
 Deploy easily on [Vercel](https://vercel.com), [Render](https://render.com), or [AWS EC2](https://aws.amazon.com/ec2/) for production use.  
-```
+
