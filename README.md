@@ -68,7 +68,7 @@ python app.py
 git clone https://github.com/Khyati-Chouhan/My_Next_Read.git
 cd My_Next_Read
 ```
-## Build Docker Image
+Build Docker Image
 ```bash
 docker build -t my-next-read .
 ```
