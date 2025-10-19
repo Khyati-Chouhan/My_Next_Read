@@ -48,22 +48,22 @@ git clone https://github.com/Khyati-Chouhan/My_Next_Read.git
 cd My_Next_Read
 ```
 
-## Create a Virtual Environment
+ Create a Virtual Environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-## Install Dependencies
+Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-## Run Flask App
+ Run Flask App
 ```bash
 python app.py
 ```
 ## How to Setup (Dockerized)
 
-## Clone the Repository
+ Clone the Repository
 ```bash
 git clone https://github.com/Khyati-Chouhan/My_Next_Read.git
 cd My_Next_Read
@@ -72,12 +72,12 @@ cd My_Next_Read
 ```bash
 docker build -t my-next-read .
 ```
-## Run Docker Container
+ Run Docker Container
 ```bash
 docker run -p 8501:8501 my-next-read
 python app.py
 ```
-## Deployment
+ Deployment
 ```bash
 Deploy easily on [Vercel](https://vercel.com), [Render](https://render.com), or [AWS EC2](https://aws.amazon.com/ec2/) for production use.  
 ```
